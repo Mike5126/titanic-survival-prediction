@@ -1,0 +1,6 @@
+Flask==2.2.2
+Werkzeug==2.2.2
+numpy
+pandas
+scikit-learn
+gunicorn
