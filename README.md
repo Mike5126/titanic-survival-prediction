@@ -10,9 +10,3 @@ To run and develop this project, you will need the following tools:
 3. [Render Account](https://render.com)
 4. [GitCLI](https://git-scm.com/book/en/v2/Getting-Started-The-Command-Line)
 
-## Local Setup
-
-**Step 1: Clone the repository**
-```bash
-git clone [https://github.com/Cuong51206/titanic-survival-prediction.git](https://github.com/Cuong51206/titanic-survival-prediction.git)
-cd titanic-survival-prediction
