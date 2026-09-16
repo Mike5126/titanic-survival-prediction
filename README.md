@@ -1,4 +1,4 @@
-# Titanic Survival Prediction - End to End ML Project
+# Titanic Survival Prediction
 
 
 **Live Demo:** [https://titanic-survival-prediction-13y0.onrender.com](https://titanic-survival-prediction-13y0.onrender.com)
