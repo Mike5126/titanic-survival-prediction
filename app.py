@@ -4,7 +4,6 @@ import numpy as np
 
 app = Flask(__name__)
 
-# Load mô hình và scaler
 model = pickle.load(open('rf_model.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 
@@ -21,10 +20,8 @@ def predict():
     final_features = [np.array(features)]
     final_features_scaled = scaler.transform(final_features)
     
-    # Dự đoán
     prediction = model.predict(final_features_scaled)[0]
     
-    # Dịch kết quả
     if prediction == 1:
         result_text = "Dự đoán: Hành khách này có khả năng SỐNG SÓT 🚢"
     else:
